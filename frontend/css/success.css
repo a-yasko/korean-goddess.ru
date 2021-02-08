@@ -1,0 +1,38 @@
+.content {
+    margin-top: 50px;
+}
+
+.header__cart img {
+    position: relative;
+}
+
+.cart__count {
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    background: linear-gradient(to top, #fdd29e, #fb83a7);
+    position: absolute;
+    top: -10px;
+    right: 2px;
+}
+
+.cart__count p {
+    font-size: 15px;
+}
+
+.success-main {
+    padding: 50px 0;
+}
+
+.success-main .neon-btn {
+    margin-top: 35px;
+    height: 45px;
+}
+
+@media (max-width: 414.98px) {
+    .footer {
+        padding-bottom: 25px;
+    }
+}
+

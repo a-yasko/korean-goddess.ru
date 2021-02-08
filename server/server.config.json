@@ -1,0 +1,36 @@
+{
+  "port": 3000,
+  "root": {
+    "username": "root",
+    "passhash": "fd0fe4da3c5d2697"
+  },
+  "images": {
+    "external": "/products-images",
+    "dist": "static/product-images"
+  },
+  "mail": {
+    "templatesDir": "static/templates",
+    "host": "smtp.yandex.ru",
+    "port": 465,
+    "recipients": [
+      "alex0426170@gmail.com", "alexey.kurnev@payture.com"
+    ],
+    "credentials": {
+      "username": "korrean-goddess@yandex.ru",
+      "password": "8aw08pew",
+      "emailFrom": "korrean-goddess@yandex.ru"
+    }
+  },
+  "payment": {
+    "lifetime": 1800000,
+    "payture": {
+      "gateway": "https://sandbox3.payture.com",
+      "terminal": "KoreanGoddess",
+      "redirectUrl": "",
+      "templateTag": "Default",
+      "templateLanguage": "Default",
+      "customerContact": "korrean-goddess@yandex.ru",
+      "confirmUserAgentFilter": "Payture/1.0"
+    }
+  }
+}

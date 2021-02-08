@@ -1,0 +1,20 @@
+<html>
+  <body>
+
+    <h2>Заявка на обратную связь:</h2>
+
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Имя:</strong></td>
+          <td>%customer_name%</td>
+        </tr>
+        <tr>
+          <td><strong>Телефон:</strong></td>
+          <td>%customer_phone%</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>

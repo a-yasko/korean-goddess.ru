@@ -1,0 +1,65 @@
+<html>
+  <body>
+
+    <h2>Покупатель:</h2>
+
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Имя:</strong></td>
+          <td>%customer_name%</td>
+        </tr>
+        <tr>
+          <td><strong>Телефон:</strong></td>
+          <td>%customer_phone%</td>
+        </tr>
+        <tr>
+          <td><strong>Способ оплаты:</strong></td>
+          <td>%payment_type%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Заказ:</h2>
+
+    <table style="border-spacing: 16px 8px; border: 1px solid black;">
+      <thead>
+        <tr>
+          <th><strong>#</strong></th>
+          <th>Наименование товара</th>
+          <th>Тип товара</th>
+          <th>Качество</th>
+          <th>Цена товара</th>
+          <th>Цена со скидкой</th>
+          <th>Количество</th>
+        </tr>
+      </thead>
+      <tbody>
+        %cart_position%
+      </tbody>
+    </table>
+
+    <table style="margin-top: 8px;">
+      <tbody>
+        <tr>
+          <td>
+            <h3 style="margin:0">Итого:</h3>
+          </td>
+          <td>
+            <h3 style="margin:0">%total%</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4 style="margin:0">Скидка включена:</h4>
+          </td>
+          <td>
+            <h4 style="margin:0">%discount_enabled%</h4>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </body>
+</html>

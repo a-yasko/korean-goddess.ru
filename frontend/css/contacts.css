@@ -1,0 +1,108 @@
+.background {
+    background-image: url(../img/bg-contacts.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.header .neon-btn {
+    height: 35px;
+    font-size: 14px;
+}
+
+.contacts {
+    padding: 50px 0;
+}
+
+.contacts a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.contacts__h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.contacts__wh,
+.contacts__inst,
+.contacts__loc {
+    position: relative;
+    font-size: 24px;
+    margin-left: 34px;
+    padding-bottom: 25px;
+}
+
+.contacts__wh::before {
+    position: absolute;
+    content: url(../img/whatsapp.png);
+    margin-left: -34px;
+    margin-top: 3px;
+}
+
+.contacts__inst::before {
+    position: absolute;
+    content: url(../img/instagram.png);
+    margin-left: -34px;
+    margin-top: 3px;
+}
+
+.contacts__loc::before {
+    position: absolute;
+    content: url(../img/location.png);
+    margin-left: -34px;
+    margin-top: 3px;
+}
+
+.footer {
+    padding-bottom: 50px;
+}
+
+/* Apadtive */
+
+@media (max-width: 991.98px) {
+    .contacts__h1 {
+        font-size: 36px;
+    }
+    .contacts__wh,
+    .contacts__inst,
+    .contacts__loc {
+        font-size: 18px;
+    }
+    .header .neon-btn {
+        padding: 0 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contacts {
+        padding: 25px 0;
+    }
+    .contacts__h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 414.98px) {
+    .contacts__wh,
+    .contacts__inst,
+    .contacts__loc {
+        font-size: 14px;
+    }
+    .contacts__wh::before,
+    .contacts__inst::before,
+    .contacts__loc::before {
+        margin-top: -3px;
+    }
+    .footer {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 360.98px) {
+    .header .neon-btn {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+}

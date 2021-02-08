@@ -1,0 +1,7 @@
+<html>
+  <body>
+
+    <h2>Заказ %order_id% был успешно оплачен через шлюз Payture</h2>
+
+  </body>
+</html>
